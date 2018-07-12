@@ -1,0 +1,3 @@
+export const FETCH_PROGRAMME = 'FETCH_PROGRAMME';
+export const CHANGE_DATE = 'CHANGE_DATE';
+export const SELECT_CHANNEL = 'SELECT_CHANNEL';

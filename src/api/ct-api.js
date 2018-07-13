@@ -1,7 +1,7 @@
 import { fetchProgramme, fetchProgrammeSuccess, fetchProgrammeError } from '../redux/action-creators';
 import convert from 'xml-js';
 
-const BASE_URL = 'http://www.ceskatelevize.cz/services/programme/xml/schedule.php?user=xborovsky';
+const BASE_URL = 'http://cors-anywhere.herokuapp.com/http://www.ceskatelevize.cz/services/programme/xml/schedule.php?user=xborovsky';
 
 export const loadProgramme = (channel, date) => {
     return dispatch => {
